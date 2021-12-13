@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PegaLogin_twice" thread-count="2" >
+
+<test name="TestingOnPegaLogin1">
+<parameter name="LoginCount" value="one"></parameter>
+<classes>
+<class name="Pegalogin_Twice.Login_Page_Twice"/>
+</classes>
+</test> 
+
+<test name="TestingOnPegaLogin2">
+<parameter name="LoginCount" value="two"></parameter>
+<classes>
+<class name="Pegalogin_Twice.Login_Page_Twice"/>
+</classes>
+</test> 
+
+</suite>
