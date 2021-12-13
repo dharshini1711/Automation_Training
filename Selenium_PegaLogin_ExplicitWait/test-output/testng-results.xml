@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-13T16:02:08 IST" name="PegaLoginEW" finished-at="2021-12-13T16:02:18 IST" duration-ms="9987">
+    <groups>
+    </groups>
+    <test started-at="2021-12-13T16:02:08 IST" name="PegaLoginTestE" finished-at="2021-12-13T16:02:18 IST" duration-ms="9987">
+      <class name="Pegalogin_ExplicitWait.Login_Page_EW">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Pegalogin_ExplicitWait.Login_Page_EW@3a44431a]" started-at="2021-12-13T16:02:08 IST" name="setup" finished-at="2021-12-13T16:02:10 IST" duration-ms="2840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="launch_app()[pri:0, instance:Pegalogin_ExplicitWait.Login_Page_EW@3a44431a]" started-at="2021-12-13T16:02:11 IST" name="launch_app" finished-at="2021-12-13T16:02:13 IST" duration-ms="2873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_app -->
+        <test-method signature="enter_username()[pri:0, instance:Pegalogin_ExplicitWait.Login_Page_EW@3a44431a]" started-at="2021-12-13T16:02:13 IST" name="enter_username" finished-at="2021-12-13T16:02:14 IST" depends-on-methods="Pegalogin_ExplicitWait.Login_Page_EW.launch_app" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_username -->
+        <test-method signature="enter_password()[pri:0, instance:Pegalogin_ExplicitWait.Login_Page_EW@3a44431a]" started-at="2021-12-13T16:02:14 IST" name="enter_password" finished-at="2021-12-13T16:02:14 IST" depends-on-methods="Pegalogin_ExplicitWait.Login_Page_EW.enter_username" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_password -->
+        <test-method signature="click_login()[pri:0, instance:Pegalogin_ExplicitWait.Login_Page_EW@3a44431a]" started-at="2021-12-13T16:02:14 IST" name="click_login" finished-at="2021-12-13T16:02:17 IST" depends-on-methods="Pegalogin_ExplicitWait.Login_Page_EW.enter_password" duration-ms="3641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_login -->
+        <test-method signature="get_title()[pri:0, instance:Pegalogin_ExplicitWait.Login_Page_EW@3a44431a]" started-at="2021-12-13T16:02:17 IST" name="get_title" finished-at="2021-12-13T16:02:17 IST" depends-on-methods="Pegalogin_ExplicitWait.Login_Page_EW.enter_password" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_title -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:Pegalogin_ExplicitWait.Login_Page_EW@3a44431a]" started-at="2021-12-13T16:02:17 IST" name="finish" finished-at="2021-12-13T16:02:18 IST" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- Pegalogin_ExplicitWait.Login_Page_EW -->
+    </test> <!-- PegaLoginTestE -->
+  </suite> <!-- PegaLoginEW -->
+</testng-results>
